@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.elemento{
+    color: aliceblue;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.static{
+     position: static; /*ja vem como static como padrao*/
+    background-color: crimson;
+}
+.relative{
+    position: relative;
+    background-color: rebeccapurple;
+    left: 100px;
+}
+.absoluto{
+    position: absolute;
+    background-color: blanchedalmond;
+    left: 100px;
+    top: 620px;
+}
+.relative-com-filho{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(214,212,212);
+}
+.absoluto-com-pai{
+position: absolute;
+width: 150px;
+height: 150px;
+background-color: yellowgreen;
+}

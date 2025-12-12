@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.conteudo{
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    background-image: url(src/bg-repeat.jpg);
+    background-repeat:repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+.info-formulario{
+    max-width: 290px;
+    min-height: 110px;
+    color: #FFFFFF;
+}
+.title-form{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+.formulario{
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 400px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nomeUser, .emailUser, .telUser, .mensagemUser, .btn-enviar{
+min-width: 300px;
+min-height: 35px;
+padding: 9px;
+border-radius: 5px;
+border: 1px solid #000000;
+font-weight: 700;
+}
+.camObg{
+    color: #FFFFFF;
+    font-size: 9px;
+    margin-bottom: 2px;
+}
+.camObgOn{
+    color: #F52E2E;
+}
+.validado{
+    border-color: #00C22B;
+
+}
+.naoValidado{
+    border-color: #F52E2E;
+}
+.mensagemUser{
+min-height: 100px;
+}
+.btn-enviar{
+margin-top: 12px;
+color: #FFFFFF;
+background-color: #3CCC87;
+border: none;
+}

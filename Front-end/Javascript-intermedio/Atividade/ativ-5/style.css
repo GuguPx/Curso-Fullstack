@@ -1,0 +1,45 @@
+main {
+  background-image: url(src/imagem1.jpg);
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  padding: 186px 180px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.imagem-info {
+  background-color: #FFFFFF;
+  width: 620px;
+  height: 700px;
+  padding: 65px 60px;
+  border-radius: 10px;
+}
+.imagem-info h1 {
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 79px;
+}
+.descricao{
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 45px;
+}
+#saibaMais{
+  font-weight: 700;
+  font-size: 30px;
+  color: #C50000;
+}
+.setas{
+  width: 50px;
+  height: 80px;
+  position: absolute;
+  top: 500px;
+}
+#setaDireita{
+  right: 70px;
+}
+#setaEsquerda{
+  left: 70px;
+  transform: scaleX(-1);
+}

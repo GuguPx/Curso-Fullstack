@@ -1,0 +1,41 @@
+.container{
+    font-family: "Public Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 20px;
+    gap: 1px;
+}
+.image-1, .image-2, .image-3, .image-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 335px;
+    height: 431px;
+    color: #fff;
+}
+.image-1{
+    background-image: url(../image/6\ 2.png);
+}
+.image-2{
+    background-image: url(../image/3\ 1.png);
+}
+.image-3{
+    background-image: url(../image/4\ 1.png);
+}
+.image-4{
+    background-image: url(../image/5\ 2.png);
+}
+.image-name{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.autor{
+    font-size: 17px;
+    font-weight: 300;
+}
+.info{
+    padding: 0 22px 15px ;
+}

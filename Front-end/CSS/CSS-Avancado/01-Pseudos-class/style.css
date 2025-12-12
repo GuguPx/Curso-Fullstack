@@ -1,0 +1,22 @@
+/* seletor:pseudo-classed{
+    propiedade: valor;
+} */
+.first:first-child{
+    color: red;
+}
+.last:last-child{
+    color: blue;
+}
+.not:not(.padrao){
+    color:yellow
+}
+
+.child1 li:nth-child(n+2):nth-child(-n+4){
+    color: aqua;
+}
+.child2 li:nth-last-child(n+2){
+    color: red;
+}
+.only p:only-child{
+    color: blueviolet;
+}

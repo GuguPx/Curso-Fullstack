@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: yellow;
+}
+.paragrafo{
+    color: aqua;
+}
+#menu{
+    margin-left: 100px;
+}
+.lorem{
+    font-size: 30px;
+}
+.texto.lorem{
+    color: red;
+
+}
+.exemplo.lorem{
+    color: violet;
+}
+p, span{
+    font-size: 26px;
+}
+.sobre .texto{
+    color: rebeccapurple;
+}
+/* pai > filha{
+    propiedade:valor;
+} */
+/* div > p{
+color: rosybrown;
+} */
+div + p {
+    color: blue;
+}
+a[target=_blank]{
+    color: red;
+}
+a[target="google.com"]{
+    color: palevioletred;
+}

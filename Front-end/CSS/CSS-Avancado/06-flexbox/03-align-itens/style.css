@@ -1,0 +1,34 @@
+.flex-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+.baseline {
+    display: flex;
+    align-items: baseline;
+}
+
+.container div.baseline-2 {
+    font-size: 45px;
+}
+
+.container div.baseline-3 {
+    font-size: 65px;
+}

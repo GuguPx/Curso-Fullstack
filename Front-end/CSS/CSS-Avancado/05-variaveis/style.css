@@ -1,0 +1,23 @@
+:root{
+    --cor-padrao: red;
+    --font-s-padrao: 30px;
+}
+h2{
+    --border-padrao: 2px solid gray;
+    color: var(--cor-padrao, blue);
+    font-size: var(--font-s-padrao, 20px);
+    border: var(--border-padrao);
+}
+h3{
+    color: var(--cor-padrao, blue);
+    font-size: var(--font-s-padrao);
+
+}
+p{
+    color: var(--cor-padrao, blue);
+    font-size: var(--font-s-padrao, 20px);
+}
+span{
+    color: var(--cor-padrao, blue);
+    font-size: var(--font-s-padrao, 20px);
+}

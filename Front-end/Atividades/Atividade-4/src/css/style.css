@@ -1,0 +1,23 @@
+@media (min-width:768px){
+    .menu-container{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+        height: fit-content;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    .menu{
+        flex-direction: row;
+        gap: 30px;
+    }    
+    .menu a{
+        font-size: 18px;
+        padding: 11px 7px;
+    }
+    .menu .btn{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}

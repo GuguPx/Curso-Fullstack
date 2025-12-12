@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>efeito acordeon</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <main class="conteudo">
+    <div class="faq-card">
+      <img src="src/faqImg.png" class="img-faq" alt="faq imagem">
+
+      <div class="faq">
+        <h1 class="titulo-faq">FAQ</h1>
+
+        <div class="faq-pontos">
+          <button class="faq-btn" onclick="abrir(0)">
+            <h2 class="btn-name">Lorem ipsum dolor sit amet, consectetur ?</h2>
+            <img src="src/arrow-down.png" alt="seta" class="seta">
+          </button>
+          <div class="acordeon">
+            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.1</p>
+          </div>
+        </div>
+
+        <div class="faq-pontos">
+          <button class="faq-btn" onclick="abrir(1)">
+            <h2 class="btn-name">Lorem ipsum dolor sit amet ?</h2>
+            <img src="src/arrow-down.png" alt="seta" class="seta">
+          </button>
+          <div class="acordeon">
+            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.2</p>
+          </div>
+        </div>
+
+        <div class="faq-pontos">
+          <button class="faq-btn" onclick="abrir(2)">
+            <h2 class="btn-name">Lorem ipsum dolor sit ?</h2>
+            <img src="src/arrow-down.png" alt="seta" class="seta">
+          </button>
+          <div class="acordeon">
+            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.3</p>
+           </div>
+        </div>
+
+
+      </div>
+    </div>
+    
+  </main>
+
+<script src="index.js"></script>
+</body>
+</html>

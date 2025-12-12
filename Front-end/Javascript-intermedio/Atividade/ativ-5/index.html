@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carrocel de imagens</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <article class="imagem-info">
+        <h1>Titulo imagem <span id="imgNum">1</span></h1>
+        <p class="descricao">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat aliquet, at eleifend augue pulvinar. Phasellus nulla eros, consequat a ipsum in, ultrices volutpat felis. Duis in nibh a tellus sodales finibus. Fusce libero turpis, sodales eu facilisis et, tristique vitae nibh. Praesent arcu eros, condimentum a interdum in, semper in ante. Suspendisse dolor urna, volutpat a e
+        </p>
+        <a href="#" id="saibaMais">Saiba mais</a>
+      </article>
+      <button onclick="proxImagem()" class="setas" id="setaDireita">
+        <img src="src/seta.png" alt="seta direita"></button>
+        <button onclick="imagemAnt()" class="setas" id="setaEsquerda">
+            <img src="src/seta.png" alt="seta esquerda"></button>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

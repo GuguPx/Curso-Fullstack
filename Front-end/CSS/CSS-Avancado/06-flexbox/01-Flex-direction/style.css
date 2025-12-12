@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+    /* o padrao ja é row ao definir o display para flex */
+    flex-direction: row;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.columm{
+    display: flex;
+    flex-direction: column;
+}
+.columm-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}

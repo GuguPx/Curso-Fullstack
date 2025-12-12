@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+
+    <h3>Formulario com GET</h3>
+    <form action="index.html" method="GET">
+        <input type="text" name="q">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h3>Formulario com POST</h3>
+    <form action="index.html" method="POST">
+        <input type="text" name="q">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <div id="formulario-do-facebook">
+        <h3>Formulario de Login no Facebook</h3>
+        <br>
+        <form action="index.html" method="GET">
+            <h1>Cadastre-se</h1>
+            <p>É rapido e facil.</p>
+            <div>
+                <input type="text" placeholder="Nome" id="nome" name="nome">
+
+                <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome">
+                <br>
+
+                <input type="text" name="telefone-ou-email" id="t-ou-e" placeholder="Celular ou email">
+                <br>
+
+                <input type="password" placeholder="Nova senha" id="senha">
+                <br>
+
+                <label>Data de nascimento</label>
+                <select name="data" id="dia">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                </select>
+                <select name="data" id="mes">
+                    <option value="1">Jan</option>
+                    <option value="2">Fev</option>
+                    <option value="3">Mar</option>
+                    <option value="4">Abr</option>
+                    <option value="5">mai</option>
+                    <option value="6">jun</option>
+                    <option value="7">jul</option>
+                    <option value="8">ago</option>
+                    <option value="9">set</option>
+                    <option value="10">out</option>
+                    <option value="11">nov</option>
+                    <option value="12">dez</option>
+                </select>
+                <select name="data" id="ano">
+                    <option value="1">2000</option>
+                    <option value="2">2001</option>
+                    <option value="3">2003</option>
+                    <option value="4">2004</option>
+                    <option value="5">2005</option>
+                    <option value="6">2006</option>
+                    <option value="7">2007</option>
+                    <option value="8">2008</option>
+                    <option value="9">2009</option>
+                    <option value="10">2010</option>
+                    <option value="11">2011</option>
+                    <option value="12">2012</option>
+                </select>
+                <br>
+                <label>Genero</label>
+                <div class="container-genero">
+                    <div class="genero">
+                        <label for="feminino">Feminino</label>
+                        <input type="radio" name="genero" id="feminino" value="feminino">
+                    </div>
+
+                    <div class="genero">
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" name="genero" id="masculino" value="masculino">
+                    </div>
+
+                    <div class="genero">
+                        <label for="personalizado">Personalizado</label>
+                        <input type="radio" name="genero" id="personalizado" value="personalizado">
+                    </div>
+                </div>
+
+                <p>Ao clicar em Cadastre-se, voçê concorda com nossos Termos, Política de Dados e Política de Cookies.
+                    Você poderá receber notificações por SMS e cancelar isso quando quiser.</p>
+            </div>
+            <input type="submit" value="Cadastre-se">
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>

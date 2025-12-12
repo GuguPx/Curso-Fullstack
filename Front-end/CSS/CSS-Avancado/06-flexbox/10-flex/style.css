@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+}
+
+/* Propiedade: grow shrink basis; */
+.flex-0{
+    flex: 0;
+}
+.flex-1{
+    flex: 1;
+}
+.flex{
+    flex: 1 1 100px;
+}
+
+

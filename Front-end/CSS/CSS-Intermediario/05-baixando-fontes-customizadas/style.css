@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'milky';
+    src: url('./fonts/MilkyNice.otf'), url('./fonts/MilkyNice.ttf');
+}
+h1{
+    font-family: 'milky', Helvetica, sans-serif;
+    font-weight: 100;
+}

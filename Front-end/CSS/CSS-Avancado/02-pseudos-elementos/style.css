@@ -1,0 +1,22 @@
+/* 
+seletor::pseudo-elemento{
+    propiedade:valor
+} */
+
+.paragrafo1::first-letter{
+    color: aquamarine;
+}
+.paragrafo2::first-line{
+    color: aquamarine;
+}
+li::marker{
+    color: blue;
+    font-size: 24px;
+}
+h2::before{
+    content: url(./images/21362697191661247270-20.png);
+}
+h2::after{
+    content: url(./images/21362697191661247270-20.png);
+}
+

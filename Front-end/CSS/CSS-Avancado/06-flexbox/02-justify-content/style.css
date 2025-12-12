@@ -1,0 +1,29 @@
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+.space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container.space-around div, 
+.container.space-evenly div, 
+.container.space-between div {
+    margin: 0;
+}
